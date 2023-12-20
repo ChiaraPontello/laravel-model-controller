@@ -1,9 +1,10 @@
 @extends('layouts.app')
+@section('title', 'The Book')
 
-
-@section('title', 'All Movies')
+@section('content')
+@extends('layouts.app')
+@section('title', 'The Movie')
 
 @section('content')
 
-<h1>Movies</h1>
 @endsection
